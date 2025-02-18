@@ -1,0 +1,13 @@
+12. JS Summary:
+
+Weakly Typed Language
+- no explicit type assignment
+- data types can be switched dynamically
+
+Object-Oriented Language
+- data organized in logical objects
+- primitive and reference types
+
+Versatile Language
+- runs in browser & directly on pc/Server
+- perform a broad variety of tasks

@@ -1,0 +1,30 @@
+02
+
+Node JS: 
+- JS Runtime
+- uses V8 javascript engine to compile the js code to machine code
+- V8 itself is written in C++
+- Node extends V8 with the additional features and APIs,
+    handling file systems,
+    networking,
+    other low level operation,
+    
+04
+
+Node JS REPL(Read-Eval-Print Loop):
+- an interactive shell that allows you to run JavaScript code directly in a Node. js environment
+
+05
+
+- Node JS runs on Server side too
+- Buisness Logic implemented at the Server and it can interact with DB, Authenticate Users, validate the inputs and more
+- One can create Server and listen to incoming requests, return responses using Node JS
+
+09
+
+REPL(>):
+- Read user input
+- Evaluate user input
+- Print output
+- Loop and wait for new input
+
