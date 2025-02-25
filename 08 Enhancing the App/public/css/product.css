@@ -2,21 +2,14 @@
     width: 20rem;
     max-width: 90%;
     margin: auto;
+    display: block;
 }
 
 .product-item {
-    background: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
-            0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
 }
-
-.product-item:hover {
-    transform: scale(1.05);
-}
-
 
 .product__title {
     font-size: 1.2rem;
