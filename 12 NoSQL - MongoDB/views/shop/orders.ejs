@@ -1,0 +1,26 @@
+<%- include('../includes/head.ejs') %>
+
+<%- include('../includes/navigation.ejs') %> 
+
+<main>
+
+    <% if(orders.length > 0){ %>
+        <ul  class="order__item-list">
+            <% orders.forEach( order => { %>
+                <li class="order__item">
+                    <h1>#<%= order.id %></h1>
+                    <ul>
+                        <% order.products.forEach( product => { %>
+                            <li><%= product.title %> (<%= product.orderItem.qty %>)</li>
+                        <% }); %>
+                    </ul>
+                </li>
+            <% }) %>
+        </ul>
+    <% } else { %>
+        <h1>No Order!</h1>
+    <% } %>
+
+</main>
+
+<%- include('../includes/end.ejs') %> 
