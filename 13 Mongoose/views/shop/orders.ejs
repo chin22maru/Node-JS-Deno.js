@@ -5,13 +5,13 @@
 <main>
 
     <% if(orders.length > 0){ %>
-        <ul  class="order__item-list">
+        <ul  class="orders">
             <% orders.forEach( order => { %>
-                <li class="order__item">
-                    <h1>#<%= order.id %></h1>
-                    <ul>
-                        <% order.products.forEach( product => { %>
-                            <li><%= product.title %> (<%= product.orderItem.qty %>)</li>
+                <li class="orders__item">
+                    <h1>Order - # <%= order._id %></h1>
+                    <ul class="orders__products">
+                        <% order.products.forEach( p => { %>
+                            <li class="orders__products-item"><%= p.product.title %> (<%= p.qty %>)</li>
                         <% }); %>
                     </ul>
                 </li>
